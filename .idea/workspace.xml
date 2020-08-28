@@ -3,14 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="559357fb-92d0-4033-ae1d-4ef8ae88196a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_attendance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_audit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_company/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_eureka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_gate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_salarys/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +51,11 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ihrm_employee" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -70,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GateApplication">
+  <component name="RunManager" selected="Spring Boot.SalarysApplication">
     <configuration name="AttendanceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ihrm_attendance" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.atte.AttendanceApplication" />
@@ -88,6 +86,13 @@
     <configuration name="CompanyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ihrm_company" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.company.CompanyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmployeeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ihrm_employee" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.employee.EmployeeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -133,6 +138,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.GateApplication" />
+      <item itemvalue="Spring Boot.CompanyApplication" />
+      <item itemvalue="Spring Boot.SystemApplication" />
+      <item itemvalue="Spring Boot.AttendanceApplication" />
+      <item itemvalue="Spring Boot.SocialSecurityApplication" />
+      <item itemvalue="Spring Boot.SalarysApplication" />
+      <item itemvalue="Spring Boot.AuditApplication" />
+      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Spring Boot.EmployeeApplication" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.EurekaServer" />
@@ -151,7 +167,8 @@
       <updated>1581332468508</updated>
       <workItem from="1581332471860" duration="272000" />
       <workItem from="1598619506166" duration="1431000" />
-      <workItem from="1598621271547" duration="3803000" />
+      <workItem from="1598621271547" duration="4461000" />
+      <workItem from="1598655630130" duration="121000" />
     </task>
     <servers />
   </component>
