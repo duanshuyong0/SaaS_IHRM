@@ -2,45 +2,271 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="559357fb-92d0-4033-ae1d-4ef8ae88196a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SaaS_HRM.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/AttendanceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/AttendanceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/controller/AttendanceController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/controller/AttendanceController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/controller/ConfigController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/controller/ConfigController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ArchiveMonthlyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ArchiveMonthlyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ArchiveMonthlyInfoDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ArchiveMonthlyInfoDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/AttendanceConfigDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/AttendanceConfigDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/AttendanceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/AttendanceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/CompanySettingsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/CompanySettingsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/DayOffConfigDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/DayOffConfigDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/DeductionDictDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/DeductionDictDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/DeductionTypeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/DeductionTypeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ExtraDutyConfigDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ExtraDutyConfigDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ExtraDutyRuleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/ExtraDutyRuleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/LeaveConfigDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/LeaveConfigDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/UserCDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/dao/UserCDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ArchiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ArchiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/AtteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/AtteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ConfigurationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ConfigurationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ExcelImportService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ExcelImportService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ReprortService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/java/com/ihrm/atte/service/ReprortService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_attendance/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_attendance/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/AuditApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/AuditApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/AuditDatasourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/AuditDatasourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/JpaRepositoriesConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/JpaRepositoriesConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/client/FeignClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/client/FeignClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/client/SystemFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/client/SystemFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/controller/ProcessController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/controller/ProcessController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/dao/ProcInstanceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/dao/ProcInstanceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/dao/ProcTaskInstanceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/dao/ProcTaskInstanceDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/dao/ProcUserGroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/dao/ProcUserGroupDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/entity/ProcInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/entity/ProcInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/entity/ProcTaskInstance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/entity/ProcTaskInstance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/entity/ProcUserGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/entity/ProcUserGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/service/AuditService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/service/AuditService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/service/ProcessService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/java/com/ihrm/audit/service/ProcessService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/test/java/com/ihrm/audit/AuditTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/test/java/com/ihrm/audit/AuditTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/Constants/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/Constants/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/controller/BaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/controller/BaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/controller/ErrorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/controller/ErrorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/entity/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/exception/CommonException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/exception/CommonException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/feign/FeignConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/feign/FeignConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/handler/BaseExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/handler/BaseExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/poi/ExcelExportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/poi/ExcelExportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/poi/ExcelImportUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/poi/ExcelImportUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/service/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/service/BaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/shiro/realm/IhrmRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/shiro/realm/IhrmRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/shiro/session/CustomSessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/shiro/session/CustomSessionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/BeanMapUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/BeanMapUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/DateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/DownloadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/DownloadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/IdWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/IdWorker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/PermissionConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/PermissionConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/QiniuUploadUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/main/java/com/ihrm/common/utils/QiniuUploadUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/test/java/com/ihrm/gate/demo/CreateJwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/test/java/com/ihrm/gate/demo/CreateJwtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common/src/test/java/com/ihrm/gate/demo/ParseJwtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common/src/test/java/com/ihrm/gate/demo/ParseJwtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/base/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/base/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/ArchiveListBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/ArchiveListBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteItemBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteItemBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteReportMonthlyBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteReportMonthlyBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteSalaryStatisticsBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteSalaryStatisticsBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteStatisBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteStatisBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteTotalsBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/AtteTotalsBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/DaysMonthlyBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/bo/DaysMonthlyBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ArchiveMonthly.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ArchiveMonthly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ArchiveMonthlyInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ArchiveMonthlyInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/Attendance.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/Attendance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/AttendanceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/AttendanceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/DayOffConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/DayOffConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/DeductionDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/DeductionDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/DeductionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/DeductionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ExtraDutyConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ExtraDutyConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ExtraDutyRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ExtraDutyRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/LeaveConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/LeaveConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ReportItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/entity/ReportItemVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/enums/DeductionEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/enums/DeductionEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/enums/LeaveTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/enums/LeaveTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/resp/PageResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/resp/PageResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveInfoVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveInfoVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveItemVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveMonthlyVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveMonthlyVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ArchiveVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AttePageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AttePageVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AtteSalaryStatisticsVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AtteSalaryStatisticsVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AtteUploadVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AtteUploadVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AtteVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/AtteVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ConfigVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ConfigVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ExtDutyVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ExtDutyVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ExtWorkVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ExtWorkVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ReportVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/atte/vo/ReportVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/response/DeptListResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/company/response/DeptListResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeeArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeeArchive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeePositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeePositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeeResignation.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeeResignation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeeTransferPosition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/EmployeeTransferPosition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/UserCompanyJobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/UserCompanyJobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/UserCompanyPersonal.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/UserCompanyPersonal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/response/EmployeeReportResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/employee/response/EmployeeReportResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/poi/ExcelAttribute.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/poi/ExcelAttribute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/CompanySettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/CompanySettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/SalaryArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/SalaryArchive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/SalaryArchiveDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/SalaryArchiveDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/UserSalary.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/UserSalary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/UserSalaryChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/salarys/UserSalaryChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/Archive.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/Archive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/ArchiveDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/ArchiveDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/CityPaymentItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/CityPaymentItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/CompanySettings.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/CompanySettings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/PaymentItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/PaymentItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/UserSocialSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/UserSocialSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/UserSocialSecurityItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/social_security/UserSocialSecurityItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/PermissionPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/RoleAndUserRelations.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/RoleAndUserRelations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/FaceLoginResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/FaceLoginResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/ProfileResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/QRCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/QRCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/RoleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/RoleResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/UserResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/UserResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/UserSimpleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_common_model/src/main/java/com/ihrm/domain/system/response/UserSimpleResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/CompanyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/CompanyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/dao/CompanyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/dao/CompanyDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/dao/DepartmentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/dao/DepartmentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/java/com/ihrm/company/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_company/src/test/java/com/ihrm/company/CompanyDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_company/src/test/java/com/ihrm/company/CompanyDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/EmployeeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/EmployeeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/ArchiveDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/ArchiveDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/EmployeeResignationDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/EmployeeResignationDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/PositiveDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/PositiveDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/TransferPositionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/TransferPositionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/UserCompanyJobsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/UserCompanyJobsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/UserCompanyPersonalDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/dao/UserCompanyPersonalDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/ArchiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/ArchiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/PositiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/PositiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/ResignationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/ResignationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/TransferPositionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/TransferPositionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/UserCompanyJobsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/UserCompanyJobsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/UserCompanyPersonalService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/java/com/ihrm/employee/service/UserCompanyPersonalService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/resources/excel-template/hr-demo.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/resources/excel-template/hr-demo.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/resources/jasperreports_extension.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/resources/jasperreports_extension.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/resources/stsong/fonts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/resources/stsong/fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/resources/stsong/stsong.TTF" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/resources/stsong/stsong.TTF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/resources/templates/profile.jasper" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/resources/templates/profile.jasper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_eureka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_eureka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_eureka/src/main/java/com/ihrm/eureka/EurekaServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_eureka/src/main/java/com/ihrm/eureka/EurekaServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_eureka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/GateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/GateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/SalarysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/SalarysApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/ArchiveController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/ArchiveController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/CompanySettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/CompanySettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/SalaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/SalaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/controller/SettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/ArchiveDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/ArchiveDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/ArchiveDetailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/ArchiveDetailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/CompanySettingsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/CompanySettingsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/SettingsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/SettingsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/UserSalaryChangeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/UserSalaryChangeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/UserSalaryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/dao/UserSalaryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/feign/AttendanceFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/feign/AttendanceFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/feign/FeignClientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/feign/FeignClientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/feign/SocialSecurityFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/feign/SocialSecurityFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/ArchiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/ArchiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/CompanySettingsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/CompanySettingsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/SalaryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/SalaryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/SettingsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/java/com/ihrm/salarys/service/SettingsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_salarys/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_salarys/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/SocialSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/SocialSecurityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/client/EmployeeFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/client/EmployeeFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/client/SystemFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/client/SystemFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/controller/SocialSecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/controller/SocialSecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/ArchiveDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/ArchiveDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/ArchiveDetailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/ArchiveDetailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/CityPaymentItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/CityPaymentItemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/CompanySettingsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/CompanySettingsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/PaymentItemDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/PaymentItemDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/UserSocialSecurityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/dao/UserSocialSecurityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/ArchiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/ArchiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/CompanySettingsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/CompanySettingsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/PaymentItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/PaymentItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/UserSocialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/java/com/ihrm/social/service/UserSocialService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_social_securitys/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_social_securitys/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/SystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/client/CompanyFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/client/CompanyFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/FaceLoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/FaceLoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/PermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/RoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/CityDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/CityDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionApiDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionApiDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionMenuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionMenuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionPointDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/PermissionPointDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/RoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/RoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserAndRoleRelationsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserAndRoleRelationsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/CityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/FaceLoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/FaceLoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/PermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/RoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserAndRoleRelationsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserAndRoleRelationsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/shiro/realm/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/shiro/realm/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/utils/BaiduAiUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/utils/BaiduAiUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/utils/QRCodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/java/com/ihrm/system/utils/QRCodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_system/src/test/java/IhrmSystemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_system/src/test/java/IhrmSystemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\it\maven_local_repository\maven_repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.5.2" />
-        <option name="userSettingsFile" value="D:\it\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="userSettingsFile" value="$USER_HOME$/02-software/apache-maven-3.6.3/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -52,46 +278,27 @@
   <component name="MavenRunner">
     <option name="delegateBuildToMaven" value="true" />
     <option name="jreName" value="JDK1.7" />
+    <option name="skipTests" value="true" />
     <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$MAVEN_HOME" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="500" />
-    <option name="y" value="141" />
-    <option name="width" value="1076" />
-    <option name="height" value="622" />
-  </component>
+  <component name="ProjectId" id="1gjEGIlUpI1j9he1vhBPBEFelX0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="poidemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SaaS_HRM" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -105,6 +312,61 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Spring Boot.EurekaServer">
+    <configuration name="AttendanceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ihrm_attendance" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.atte.AttendanceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuditApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ihrm_audit" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.audit.AuditApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ihrm_eureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ihrm.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.eureka.EurekaServer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ihrm_gate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.gate.GateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SalarysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ihrm_salarys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.salarys.SalarysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ihrm_social_securitys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ihrm.social.SocialSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.EurekaServer" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -116,58 +378,26 @@
       <option name="presentableId" value="Default" />
       <updated>1581332468508</updated>
       <workItem from="1581332471860" duration="272000" />
+      <workItem from="1598619506166" duration="1431000" />
+      <workItem from="1598621271547" duration="324000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="272000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="BPMNPalette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>
