@@ -6,14 +6,14 @@ spring:
   #2.数据库连接池
   datasource:
     act:
-      jdbc-url: jdbc:mysql://localhost:3306/act?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+      jdbc-url: jdbc:mysql://localhost:3306/ihract?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
       username : root
-      password : root
+      password : 123456
       driver-class-name: com.mysql.jdbc.Driver
     ihrm:
-      jdbc-url: jdbc:mysql://localhost:3306/ihrm?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+      jdbc-url: jdbc:mysql://localhost:3306/ihr?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
       username : root
-      password : root
+      password : 123456
       driver-class-name: com.mysql.jdbc.Driver
   redis:
     host: 127.0.0.1
