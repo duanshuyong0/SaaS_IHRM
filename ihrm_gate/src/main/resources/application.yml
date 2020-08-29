@@ -8,8 +8,11 @@ eureka:
     instance-id: ${spring.cloud.client.ip-address}:${spring.application.name}:${server.port}
 #服务配置
 server:
-  port: 9091
-#spring配置
+  port: 28080
+
+
+
+    #spring配置
 spring:
   #1.应用配置
   application:
@@ -19,6 +22,7 @@ spring:
     port: 6379
 #配置路由规则
 zuul:
+#  prefix: /sky
   host:
     connect-timeout-millis: 60000  #HTTP连接超时要比Hystrix的大
     socket-timeout-millis: 60000  #socket超时

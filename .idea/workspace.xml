@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="559357fb-92d0-4033-ae1d-4ef8ae88196a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_audit/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_audit/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_employee/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ihrm_employee/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_employee/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/ShiroConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/ShiroConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ihrm_gate/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ihrm_gate/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +54,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ihrm.gate.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ihrm_employee" />
     </key>
@@ -75,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AuditApplication">
+  <component name="RunManager" selected="Spring Boot.GateApplication">
     <configuration name="EmployeeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ihrm.employee.EmployeeApplication" />
       <module name="ihrm_employee" />
@@ -159,7 +162,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.EurekaServer" />
+      <item itemvalue="Application.EmployeeApplication" />
       <item itemvalue="Spring Boot.GateApplication" />
       <item itemvalue="Spring Boot.CompanyApplication" />
       <item itemvalue="Spring Boot.SystemApplication" />
@@ -168,7 +171,7 @@
       <item itemvalue="Spring Boot.SalarysApplication" />
       <item itemvalue="Spring Boot.EmployeeApplication" />
       <item itemvalue="Spring Boot.AuditApplication" />
-      <item itemvalue="Application.EmployeeApplication" />
+      <item itemvalue="Spring Boot.EurekaServer" />
     </list>
     <recent_temporary>
       <list>
@@ -180,17 +183,17 @@
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
       <serviceView>
-        <option name="contentProportion" value="0.24178232" />
+        <option name="contentProportion" value="0.20160702" />
         <treeState>
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@544f1d35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cca4ce04" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@544f1d35" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@588d66a4" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@cca4ce04" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@133d9aec" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -213,6 +216,8 @@
       <workItem from="1598621271547" duration="4461000" />
       <workItem from="1598655630130" duration="121000" />
       <workItem from="1598655775594" duration="1594000" />
+      <workItem from="1598689522461" duration="400000" />
+      <workItem from="1598689974203" duration="8091000" />
     </task>
     <servers />
   </component>
@@ -231,6 +236,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ihrm_gate/src/main/java/com/ihrm/gate/ShiroConfiguration.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="masterDetails">
     <states>

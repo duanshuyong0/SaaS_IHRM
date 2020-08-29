@@ -75,6 +75,12 @@ public class ShiroConfiguration {
         filterMap.put("/sys/faceLogin/**" , "anon");
 
 
+        filterMap.put("/swagger-ui.html", "anon");
+        filterMap.put("/swagger-resources", "anon");
+        filterMap.put("/v2/api-docs", "anon");
+        filterMap.put("/webjars/springfox-swagger-ui/**", "anon");
+        filterMap.put("/configuration/security", "anon");
+        filterMap.put("/configuration/ui", "anon");
         //认证之后访问（登录之后可以访问）
         filterMap.put("/**", "authc");
 
